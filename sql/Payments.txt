@@ -1,0 +1,8 @@
+CREATE TABLE payments (
+    id         INT PRIMARY KEY,
+    booking_id INT NOT NULL,
+    amount     DECIMAL(10,2) NOT NULL,
+    method     VARCHAR(20),
+    status     VARCHAR(10) DEFAULT 'pending',
+    paid_at    DATETIME DEFAULT CURRENT_TIMESTAMP
+);
