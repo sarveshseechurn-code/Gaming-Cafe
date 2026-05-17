@@ -1,9 +1,0 @@
-CREATE TABLE bookings (
-    id             INT PRIMARY KEY,
-    full_name      VARCHAR(100) NOT NULL,
-    service_id     INT NOT NULL,
-    time_slot      VARCHAR(25) NOT NULL,
-    snacks_package INT DEFAULT 0,
-    status         VARCHAR(15) DEFAULT 'pending',
-    FOREIGN KEY (service_id) REFERENCES services(id)
-);
