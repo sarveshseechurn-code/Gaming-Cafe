@@ -15,7 +15,7 @@ public class UserService {
     ));
 
     public List<UserDTO> getAllUsers() {
-        return new ArrayList<>();
+        return currentUsers;
     }
 
     public UserDTO getUserById(int id) {

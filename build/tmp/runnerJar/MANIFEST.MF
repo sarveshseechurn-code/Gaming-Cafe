@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Class-Path: resources/ classes/ libs/micronaut-serde-jackson-2.16.2.jar 
+ libs/micronaut-serde-support-2.16.2.jar libs/micronaut-serde-api-2.16.2
+ .jar libs/micronaut-http-server-netty-4.10.23.jar libs/micronaut-http-s
+ erver-4.10.23.jar libs/micronaut-http-netty-4.10.23.jar libs/micronaut-
+ router-4.10.23.jar libs/micronaut-jackson-core-4.10.23.jar libs/microna
+ ut-json-core-4.10.23.jar libs/micronaut-http-4.10.23.jar libs/micronaut
+ -context-propagation-4.10.23.jar libs/micronaut-context-4.10.23.jar lib
+ s/micronaut-buffer-netty-4.10.23.jar libs/micronaut-aop-4.10.23.jar lib
+ s/micronaut-inject-4.10.23.jar libs/logback-classic-1.5.32.jar libs/jac
+ kson-core-2.21.2.jar libs/jackson-annotations-2.21.jar libs/jakarta.ann
+ otation-api-2.1.1.jar libs/netty-codec-http2-4.2.13.Final.jar libs/nett
+ y-codec-http-4.2.13.Final.jar libs/netty-codec-compression-4.2.13.Final
+ .jar libs/netty-handler-4.2.13.Final.jar libs/netty-codec-base-4.2.13.F
+ inal.jar libs/netty-transport-native-unix-common-4.2.13.Final.jar libs/
+ netty-transport-4.2.13.Final.jar libs/netty-buffer-4.2.13.Final.jar lib
+ s/netty-resolver-4.2.13.Final.jar libs/netty-common-4.2.13.Final.jar li
+ bs/reactor-core-3.7.12.jar libs/micronaut-core-reactive-4.10.23.jar lib
+ s/reactive-streams-1.0.4.jar libs/micronaut-core-4.10.23.jar libs/logba
+ ck-core-1.5.32.jar libs/slf4j-api-2.0.17.jar libs/jakarta.inject-api-2.
+ 0.1.jar
+Main-Class: com.levelUP.Application
+

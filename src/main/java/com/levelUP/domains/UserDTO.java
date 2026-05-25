@@ -1,5 +1,8 @@
 package com.levelUP.domains;
 
+import io.micronaut.serde.annotation.Serdeable;
+
+@Serdeable
 public class UserDTO{
 
     private int id;
