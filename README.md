@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Micronaut 4.10.14 Documentation
 
 - [User Guide](https://docs.micronaut.io/4.10.14/guide/index.html)
@@ -21,3 +22,6 @@
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)
 
 
+=======
+# Gaming-Cafe
+>>>>>>> 27c8597669c1da11d829bcb144f2b4dd7ffd5925
