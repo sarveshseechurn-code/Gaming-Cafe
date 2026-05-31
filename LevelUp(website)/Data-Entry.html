@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Data Entry - LevelUp Gaming Café</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body background ="C:\Users\harsh\OneDrive\Desktop\HTML\2504_01290 seechurn\blue-abstract-polygon-elegant-background-600nw-2526757671.webp">
+
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/LevelUp%20Gaming%20Café(Main%20Menu).html">LevelUp</a>
+      <div class="nav-links">
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/LevelUp%20Gaming%20Café(Main%20Menu).html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="form-section">
+    <div class="form-card">
+      <h1>Customer Data Entry Form</h1>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required minlength="3">
+
+        <label for="service">Select Service</label>
+        <select id="service" required>
+          <option value="" disabled selected>Choose...</option>
+          <option value="pc">PC Gaming Hourly</option>
+          <option value="console">Console Gaming Hourly</option>
+          <option value="tournament">Tournament Registration</option>
+        </select>
+
+        <label>Preferred Gaming Time Slot</label>
+        <div class="options-group">
+          <label><input type="radio" name="time-slot" required> Morning (8AM - 11PM)</label>
+          <label><input type="radio" name="time-slot"> Afternoon (12PM - 3PM)</label>
+          <label><input type="radio" name="time-slot"> Evening (4PM - 7PM)</label>
+        </div>
+
+        <label>Add-On Services</label>
+        <div class="options-group">
+          <label><input type="checkbox" name="addon"> Snacks Package</label>
+        </div>
+
+        <button type="submit">Submit Details</button>
+      </form>
+
+      <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/LevelUp%20Gaming%20Café(Main%20Menu).html" class="back-link">← Back</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 LevelUp Gaming Café. All rights reserved.
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LevelUp Gaming Café - Services</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body background = "C:\Users\harsh\OneDrive\Desktop\HTML\2504_01290 seechurn\blue-abstract-polygon-elegant-background-600nw-2526757671.webp">
+
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/LevelUp%20Gaming%20Café(Main%20Menu).html">LevelUp</a>
+      <div class="nav-links">
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/LevelUp%20Gaming%20Café(Main%20Menu).html">Home</a>
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/Service.html" class="btn-book">Services</a>
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/contact.html">Contact</a>
+        <a href="file:///C:/Users/harsh/OneDrive/Desktop/HTML/Data-Entry.html" >Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="services">
+    <h1>Our Services</h1>
+   <div class="slideshow-container">
+
+  <div class="mySlides">
+    <div class="service-card" style="width: 95%;">
+        <img src="C:\Users\harsh\OneDrive\Desktop\HTML\2504_01290 seechurn\premium_photo-1677870728119-52aef052d7ef.avif" style="width: 99%;">
+        <h3>PC Gaming Zone</h3>
+        <p>Latest PlayStation and Xbox consoles with a variety of games for casual and competitive play.</p></div>
+  </div>
+
+  <div class="mySlides">
+        <div class="service-card" style="width: 95%;">
+        <img src="C:\Users\harsh\OneDrive\Desktop\HTML\2504_01290 seechurn\unsplash-image-sKJPFpnHA2A.jpg" style="width: 99%;">
+        <h3>Console Gaming</h3>
+        <p>High-performance PCs with top-notch graphics and ultra-fast internet connection.</p> </div>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="service-card" style="width: 95%;">
+        <img src="C:\Users\harsh\OneDrive\Desktop\HTML\2504_01290 seechurn\06dxdkd5h3MmSKAaMczRpbQ-1.webp" style="width: 99%;">
+        <h3>Gaming Tournaments</h3>
+        <p>Weekly tournaments with exciting prizes. Join solo or as a team and show your skills!</p> </div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div style="text-align:center; margin-top: 10px;">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
+
+  </section>
+  
+  <footer>
+    &copy; 2025 LevelUp Gaming Café. All rights reserved.
+  </footer>
+
+</body>
+</html>
