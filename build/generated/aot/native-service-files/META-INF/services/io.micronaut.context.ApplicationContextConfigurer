@@ -1,0 +1,3 @@
+com.levelUP.DeducedEnvironmentConfigurer
+com.levelUP.NettyPropertiesAOTContextConfigurer
+com.levelUP.AOTApplicationContextConfigurer
